@@ -38,7 +38,7 @@ namespace Scrabble.Model
             if (OtherTile != null)
                 return this.TileChar.CompareTo(OtherTile.TileChar);
             else
-                throw new ArgumentException("Tiles Comparison Exception");
+                throw new ArgumentException(Scrabble2018.Locales.skin.Tile_Tles_TileException);
         }
     }
 }

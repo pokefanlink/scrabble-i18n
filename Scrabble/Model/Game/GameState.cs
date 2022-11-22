@@ -43,7 +43,7 @@ namespace Scrabble.Model
         {
             PrevPlayer = PlayerNow;
             PlayerNow = NextPlayer();
-            LastAction = "pass";
+            LastAction = Scrabble2018.Locales.skin.GameState_LastAction_Pass;
             OnStateChanged.Invoke();
         }
 
@@ -90,9 +90,9 @@ namespace Scrabble.Model
             this.FirstMove = false;
             PlayerNow = NextPlayer();
 
-            if (b == null) { LastAction = "swap"; OnStateChanged.Invoke(); return; }
+            if (b == null) { LastAction = Scrabble2018.Locales.skin.GameState_LastAction_Swap; OnStateChanged.Invoke(); return; }
 
-            LastAction = "play";
+            LastAction = Scrabble2018.Locales.skin.GameState_LastAction_Play;
             PrevScores = PlayerCountingScore;
             playerManager.AddScoresToPlayer(ListOfPlayers[PrevPlayer], PlayerCountingScore);
 

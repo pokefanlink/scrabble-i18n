@@ -35,12 +35,14 @@ namespace Scrabble.Model
             if (OtherPlayer != null)
                 return this.Score.CompareTo(OtherPlayer.Score);
             else
-                throw new ArgumentException("Players Comparison Exception");
+                throw new ArgumentException(Scrabble2018.Locales.skin.Player_PlayerException);
         }
 
         public override string ToString()
         {
             return "Player " + this.id + " has scores " + this.score + " now!";
+            //return Scrabble2018.Locales.skin.Player_PlayerScore; this.id, this.score;
+            //Need to ask David how to insert these placeholders correctly into the string
         }
 
     }
