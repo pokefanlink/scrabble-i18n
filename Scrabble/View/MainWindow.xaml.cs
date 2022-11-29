@@ -60,6 +60,7 @@ namespace Scrabble
             else
             {
                 MessageBox.Show("You need more friends to start Scrabble!!!", "Find friends!");
+                //
             }
         }
 
