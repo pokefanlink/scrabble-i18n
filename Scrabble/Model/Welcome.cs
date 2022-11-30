@@ -4,9 +4,8 @@
     {
         public static string NumOfPlayersInfo(int num)
         {
-            return "This is a " + num + " players game...";
-            //return Scrabble2018.Locales.skin.Model_NumofPlayers, num;
-            //Need to ask David how to correctly insert this placeholder
+            return Scrabble2018.Locales.skin.Model_NumofPlayers, num;
+            //This is a {0} players game. --> Number of players:{0}
         }
         public static string WelcomeText
         {

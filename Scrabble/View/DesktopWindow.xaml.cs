@@ -61,9 +61,10 @@ namespace Scrabble
             }
             LogBoardWriter(Welcome.WelcomeText);
             LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_GameStart);
-            LogBoardWriter("This is a " + GameState.GSInstance.NumOfPlayers + " players game.");
-            //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_NumofPlayers, GameState.GSInstance.NumOfPlayers);
+            LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_NumofPlayers, GameState.GSInstance.NumOfPlayers);
+            //LogBoardWriter("This is a " + GameState.GSInstance.NumOfPlayers + " players game.");
             //Ask David how to correctly input this placeholder.
+            //This is a {0} players game... --> Number of players: {0}
 
             foreach (KeyValuePair<int, Tile> kvp in GameStartDraw.Drawn)
             {
@@ -71,9 +72,11 @@ namespace Scrabble
                 //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw, (kvp.Key + 1), kvp.Value.TileChar);
                 //Ask David how to correctly input this placeholder.
             }
-            LogBoardWriter("Player " + (GameState.GSInstance.PlayerNow + 1) + " first!");
-            //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_FirstPlayer, (GameState.GSInstance.PlayerNow + 1));
+
+            LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_FirstPlayer, (GameState.GSInstance.PlayerNow + 1));
+            //LogBoardWriter("Player " + (GameState.GSInstance.PlayerNow + 1) + " first!");
             //Ask David how to correctly input this placeholder.
+            //Player {0} goes first! --> First up is player {0}
 
             for (int i = 0; i < RackTileButtons.Count; ++i)
             {
@@ -153,9 +156,10 @@ namespace Scrabble
 
         private void UpdatePlayerInfoLbl(int p)
         {
-            PlayerInfoLbl.Content = "Player " + (p + 1) + "'s turn.";
-            //PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View_DesktopWindow_UpdatePlayerInfoTurn, (p + 1);
+            //PlayerInfoLbl.Content = "Player " + (p + 1) + "'s turn.";
+            PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View_DesktopWindow_UpdatePlayerInfoTurn, (p + 1);
             //Ask David
+            //Player {0}'s turn. --> Turn: Player {0}
         }
 
         private void LoadBoardView()
@@ -219,9 +223,10 @@ namespace Scrabble
 
         private void ListingPrevWords()
         {
-            string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
-            //string s = Scrabble2018.Locales.skin.View_DesktopWindow_PlayerWord, (GameState.GSInstance.PrevPlayer + 1);
-            //Ask David
+            string s = Scrabble2018.Locales.skin.View_DesktopWindow_PlayerWord, (GameState.GSInstance.PrevPlayer + 1) + ":";
+            //string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
+            //Ask David -- question about the colon/punctuation
+            //Player {0} made the words: --> Words created by Player {0}
             foreach (KeyValuePair<string, int> kvp in GameState.GSInstance.CorrectWords)
             {
                 //s += kvp.Key + "(" + kvp.Value + " scores) "; //original code, keeping for reference.
@@ -251,9 +256,10 @@ namespace Scrabble
 
         private void PassButton_Click(object sender, RoutedEventArgs e)
         {
-            LogBoardWriter("Player " + (PlayerNow + 1) + " decides to pass the turn!");
-            //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_PlayerPass, (PlayerNow + 1));
+            LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_PlayerPass, (PlayerNow + 1));
+            //LogBoardWriter("Player " + (PlayerNow + 1) + " decides to pass the turn!");
             //Ask David
+            //Player {0} decides to pass the turn! --> This player decides to pass the turn! Player {0}
             GameState.GSInstance.GamePass();
             UpdatePlayerInfoLbl(GameState.GSInstance.PlayerNow);
         }
@@ -297,6 +303,7 @@ namespace Scrabble
                 LogBoardWriter("Player " + (PlayerNow + 1) + " finishing swapping tiles!");
                 //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_SwapButton_FinishSwapping, (PlayerNow + 1));
                 //Ask David
+                //Player {0} finishing swapping tiles! --> This player is finishing swapping tiles! Player {0}
                 game.UpdateState(null);
             }
         }

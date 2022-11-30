@@ -167,8 +167,8 @@
     <value>swap</value>
   </data>
   <data name="Model.NumofPlayers" xml:space="preserve">
-    <value>This is a {0} players game...</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>Number of players: {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="Model.WelcomePlayers" xml:space="preserve">
     <value>Welcome players! Welcome to Scrabble!</value>
@@ -178,14 +178,14 @@
   </data>
   <data name="Player.PlayerScore" xml:space="preserve">
     <value>Player {0} scored {1} points now!</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <comment>beware concatenation, Need to ask David - redesign</comment>
   </data>
   <data name="Tile.Tles.TileException" xml:space="preserve">
     <value>Tiles Comparison Exception</value>
   </data>
   <data name="View.DesktopWindow.FirstPlayer" xml:space="preserve">
-    <value>Player {0} goes first!</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>First up is player {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.GameJudgeScore" xml:space="preserve">
     <value>Game Judge: You didn't score. Please try again!</value>
@@ -194,20 +194,20 @@
     <value>Game starts...</value>
   </data>
   <data name="View.DesktopWindow.NumofPlayers" xml:space="preserve">
-    <value>This is a {0} players game.</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>Number of players: {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.PlayerPass" xml:space="preserve">
-    <value>Player {0} decides to pass the turn!</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>This player decides to pass the turn! Player {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.PlayerWord" xml:space="preserve">
-    <value>Player {0} made the words: </value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>Words created by Player {0}:</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.Scores" xml:space="preserve">
     <value>({0} scores)</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <comment>beware concatenation, Need to ask David - redesign</comment>
   </data>
   <data name="View.DesktopWindow.SwapButton.CannotSwap" xml:space="preserve">
     <value>You can't swap tiles now becuase less than 7 tiles are left in the bag!</value>
@@ -222,20 +222,20 @@
     <value>SWAP</value>
   </data>
   <data name="View.DesktopWindow.SwapButton.FinishSwapping" xml:space="preserve">
-    <value>Player {0} finishing swapping tiles!</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>This player is finishing swapping tiles! Player {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.TileDraw" xml:space="preserve">
     <value>Player {0} gets {1}!</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <comment>beware concatenation, Need to ask David - redesign</comment>
   </data>
   <data name="View.DesktopWindow.Title" xml:space="preserve">
     <value>Player {0} - ScrabbleDesktop</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <comment>beware concatenation, Need to ask David - redesign</comment>
   </data>
   <data name="View.DesktopWindow.UpdatePlayerInfoTurn" xml:space="preserve">
-    <value>Player {0}'s turn.</value>
-    <comment>beware concatenation, Need to ask David</comment>
+    <value>Turn: Player {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.YourTurn" xml:space="preserve">
     <value>Your turn!</value>
