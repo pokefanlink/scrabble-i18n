@@ -178,7 +178,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This is a {0} players game....
+        ///   Looks up a localized string similar to Number of players: {0}.
         /// </summary>
         internal static string Model_NumofPlayers {
             get {
@@ -223,7 +223,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} goes first!.
+        ///   Looks up a localized string similar to First up is player {0}.
         /// </summary>
         internal static string View_DesktopWindow_FirstPlayer {
             get {
@@ -250,7 +250,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This is a {0} players game..
+        ///   Looks up a localized string similar to Number of players: {0}.
         /// </summary>
         internal static string View_DesktopWindow_NumofPlayers {
             get {
@@ -259,7 +259,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} decides to pass the turn!.
+        ///   Looks up a localized string similar to This player decides to pass the turn! Player {0}.
         /// </summary>
         internal static string View_DesktopWindow_PlayerPass {
             get {
@@ -268,7 +268,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} made the words: .
+        ///   Looks up a localized string similar to Words created by Player {0}:.
         /// </summary>
         internal static string View_DesktopWindow_PlayerWord {
             get {
@@ -322,7 +322,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} finishing swapping tiles!.
+        ///   Looks up a localized string similar to This player is finishing swapping tiles! Player {0}.
         /// </summary>
         internal static string View_DesktopWindow_SwapButton_FinishSwapping {
             get {
@@ -349,7 +349,7 @@ namespace Scrabble2018.Locales {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0}&apos;s turn..
+        ///   Looks up a localized string similar to Turn: Player {0}.
         /// </summary>
         internal static string View_DesktopWindow_UpdatePlayerInfoTurn {
             get {
