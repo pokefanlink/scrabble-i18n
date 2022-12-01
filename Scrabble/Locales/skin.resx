@@ -119,43 +119,33 @@
   </resheader>
   <data name="AssemblyInfo.AssemblyCompany" xml:space="preserve">
     <value>Hewlett-Packard</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyConfiguration" xml:space="preserve">
     <value />
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyCopyright" xml:space="preserve">
     <value>Copyright © Hewlett-Packard 2018</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyCulture" xml:space="preserve">
     <value />
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyDescription" xml:space="preserve">
     <value />
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyFileVersion" xml:space="preserve">
     <value>1.0.0.0</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyProduct" xml:space="preserve">
     <value>Scrabble</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyTitle" xml:space="preserve">
     <value>Scrabble</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyTrademark" xml:space="preserve">
     <value />
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="AssemblyInfo.AssemblyVersion" xml:space="preserve">
     <value>1.0.0.0</value>
-    <comment>In an array, shows error, need to ask David</comment>
   </data>
   <data name="GameState.LastAction.Pass" xml:space="preserve">
     <value>pass</value>
