@@ -4,6 +4,9 @@
 
 Scrabble game in C#, using <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation">WPF</a>. This is a standard, but imperfect 100-pieces version of Scrabble game. There are no "Challenge" option and "The Fifty Point Bonus" in this version of the game.
 
+Scrabble-i18n is a localized version of Scrabble by Poyea that is internationalized and localized into Japanese (ja-JP) and Chinese (zh-CN).
+Scrabble-i18n is the brain-child of Nicole Henry, Tulsi Patel, Aurora Wang, and Linh Nguyen, graduate students at the Middlebury Institute of International Studies.
+
 ## Preview
 <details><summary>Click here</summary>
   <p align="center">
