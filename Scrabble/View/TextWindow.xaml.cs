@@ -26,18 +26,23 @@ namespace Scrabble
             game = g;
             game.Subs(this);
             GameState.GSInstance.OnStateChanged += OnStateChanged;
-            this.Title = "Player " + (P + 1) + " - ScrabbleConsole";
+            //this.Title = "Player " + (P + 1) + " - ScrabbleConsole";
+            this.Title = Scrabble2018.Locales.skin.View.TextWindow.Title + (P + 1);
             RackChar = new List<char>();
 
             ConsoleBoardWriter(Welcome.WelcomeText);
-            ConsoleBoardWriter("Game starts...");
-            ConsoleBoardWriter("This is a " + GameState.GSInstance.NumOfPlayers + " players game.");
+            //ConsoleBoardWriter("Game starts...");
+            ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Start);
+            //ConsoleBoardWriter("This is a " + GameState.GSInstance.NumOfPlayers + " players game.");
+            ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Gameintro, GameState.GSInstance.NumOfPlayers);
 
             foreach (KeyValuePair<int, Tile> kvp in GameStartDraw.Drawn)
             {
-                ConsoleBoardWriter("Player " + (kvp.Key + 1) + " gets " + kvp.Value.TileChar + "!");
+                //ConsoleBoardWriter("Player " + (kvp.Key + 1) + " gets " + kvp.Value.TileChar + "!");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.TileChar, (kvp.Key + 1), kvp.Value.TileChar);
             }
-            ConsoleBoardWriter("Player " + (GameState.GSInstance.PlayerNow + 1) + " first!");
+            //ConsoleBoardWriter("Player " + (GameState.GSInstance.PlayerNow + 1) + " first!");
+            ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.PlayerNow, (GameState.GSInstance.PlayerNow + 1));
 
             for (int i = 0; i < GameState.GSInstance.ListOfPlayers[ThisPlayer].PlayingTiles.Count; ++i)
             {
@@ -55,6 +60,7 @@ namespace Scrabble
         private void LoadBoardView()
         {
             ConsoleBoardWriter("      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 Y");
+            //not sure where it shows up so leave as is for now
             for (int i = 0; i < BoardCharView.GetLength(0); ++i)
             {
                 if (i < 10) ConsoleBoardWrite(i.ToString() + "   ");
@@ -94,11 +100,13 @@ namespace Scrabble
 
         private void PrintScore()
         {
-            ConsoleBoardWrite("Scores of each player: ");
+            //ConsoleBoardWrite("Scores of each player: ");
+            ConsoleBoardWrite(Scrabble2018.Locales.skin.View.TextWindow.PrintScore);
             string str = "";
             foreach (Player p in GameState.GSInstance.ListOfPlayers)
             {
-                str += "Player " + p.Id + " - " + p.Score + " | ";
+                //str += "Player " + p.Id + " - " + p.Score + " | ";
+                str += Scrabble2018.Locales.skin.View.TextWindow.PlayerID + p.Id + " - " + p.Score + " | ";
             }
             ConsoleBoardWrite(str.Substring(0, str.Length - 2));
             ConsoleBoardWriter("");
@@ -109,7 +117,8 @@ namespace Scrabble
         {
             DisableAll();
             UserInputBox.Text = "";
-            ConsoleBoardWrite("***You have tiles: ");
+            //ConsoleBoardWrite("***You have tiles: ");
+            ConsoleBoardWrite(Scrabble2018.Locales.skin.View.TextWindow.TilesDetails);
 
             for (int i = 0; i < game.gs.ListOfPlayers[ThisPlayer].PlayingTiles.Count; ++i)
             {
@@ -121,20 +130,26 @@ namespace Scrabble
             if (ThisPlayer == GameState.GSInstance.PlayerNow)
             {
                 EnableAll();
-                ConsoleBoardWriter("Your turn now!");
-                ConsoleBoardWriter("Input by typing:");
-                ConsoleBoardWriter("\"SWAP A B...\" or \"MOVE A(7,7) ...\" to place or \"PASS\" or \"RANK\".");
-                ConsoleBoardWriter("Press Submit or ENTER key when you're done.");
+                //ConsoleBoardWriter("Your turn now!");
+                ConsoleBoardWrite(Scrabble2018.Locales.skin.View.TextWindow.YourTurn);
+                //ConsoleBoardWriter("Input by typing:");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Type);
+                //ConsoleBoardWriter("\"SWAP A B...\" or \"MOVE A(7,7) ...\" to place or \"PASS\" or \"RANK\".");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.MakeaMove);
+                //ConsoleBoardWriter("Press Submit or ENTER key when you're done.");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Done);
             }
         }
 
 
         private void ListingPrevWords()
         {
-            string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
+            //string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
+            string s = Scrabble2018.Locales.skin.View.TextWindow.PlayerWords + (GameState.GSInstance.PrevPlayer + 1);
             foreach (KeyValuePair<string, int> kvp in GameState.GSInstance.CorrectWords)
             {
-                s += kvp.Key + "(" + kvp.Value + " scores) ";
+                //s += kvp.Key + "(" + kvp.Value + " scores) ";
+                s += kvp.Key + (Scrabble2018.Locales.skin.View.TextWindow.Score, kvp.Value);
             }
             ConsoleBoardWriter(s);
         }
@@ -160,13 +175,15 @@ namespace Scrabble
 
         private void RejectInput()
         {
-            ConsoleBoardWriter("Game Judge: You've input a wrong command. Please try again!");
+            //ConsoleBoardWriter("Game Judge: You've input a wrong command. Please try again!");
+            ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.RejectInput);
             LoadRackView();
         }
 
         private void RejectSwap()
         {
-            ConsoleBoardWriter("Game Judge: You can't swap from now on!");
+            //ConsoleBoardWriter("Game Judge: You can't swap from now on!");
+            ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.RejectSwap);
             LoadRackView();
         }
 
@@ -188,7 +205,8 @@ namespace Scrabble
                 }
                 else
                 {
-                    ConsoleBoardWriter("Game Judge: Wrong MOVE arguments. Please try again.");
+                    //ConsoleBoardWriter("Game Judge: Wrong MOVE arguments. Please try again.");
+                    ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.WrongMove);
                     LoadBoardView();
                     LoadRackView();
                     Retry();
