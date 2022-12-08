@@ -68,9 +68,9 @@ namespace Scrabble
 
             foreach (KeyValuePair<int, Tile> kvp in GameStartDraw.Drawn)
             {
-                LogBoardWriter("Player " + (kvp.Key + 1) + " gets " + kvp.Value.TileChar + "!");
-                //LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw, (kvp.Key + 1), kvp.Value.TileChar);
-                //Ask David how to correctly input this placeholder.
+                //LogBoardWriter("Player " + (kvp.Key + 1) + " gets " + kvp.Value.TileChar + "!");
+                LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw1, (kvp.Key + 1),Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw2 kvp.Value.TileChar);
+                //redesign split into two strings ; Player {0} gets {1}! --> Player {0} + gets {0}
             }
 
             LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_FirstPlayer, (GameState.GSInstance.PlayerNow + 1));

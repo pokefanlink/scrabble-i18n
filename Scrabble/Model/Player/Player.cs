@@ -40,9 +40,9 @@ namespace Scrabble.Model
 
         public override string ToString()
         {
-            return "Player " + this.id + " has scores " + this.score + " now!";
-            //return Scrabble2018.Locales.skin.Player_PlayerScore; this.id, this.score;
-            //Need to ask David how to insert these placeholders correctly into the string
+            //return "Player " + this.id + " has scores " + this.score + " now!";
+            return Scrabble2018.Locales.skin.Player_PlayerScore1; this.id, Scrabble2018.Locales.skin.Player_PlayerScore2; this.score;
+            //redesign split into two strings; Player {0} scored {1} points now! --> Player {0} + Points Scored: {0}
         }
 
     }
