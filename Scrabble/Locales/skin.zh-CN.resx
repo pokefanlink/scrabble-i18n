@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssemblyInfo.AssemblyCompany1" xml:space="preserve">
+    <value>Hewlett-Packard</value>
+  </data>
+  <data name="AssemblyInfo.AssemblyConfiguration1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AssemblyInfo.AssemblyCopyright1" xml:space="preserve">
+    <value>版权所有 © Hewlett-Packard 2018</value>
+  </data>
+  <data name="AssemblyInfo.AssemblyCulture1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AssemblyInfo.AssemblyDescription1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AssemblyInfo.AssemblyFileVersion1" xml:space="preserve">
+    <value>1.0.0.0</value>
+  </data>
+  <data name="AssemblyInfo.AssemblyProduct1" xml:space="preserve">
+    <value>涂鸦拼字</value>
+  </data>
+  <data name="AssemblyInfo.AssemblyTitle1" xml:space="preserve">
+    <value>涂鸦拼字</value>
+  </data>
+  <data name="AssemblyInfo.AssemblyTrademark1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AssemblyInfo.AssemblyVersion1" xml:space="preserve">
+    <value>1.0.0.0</value>
+  </data>
+  <data name="GameState.LastAction.Pass1" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="GameState.LastAction.Play1" xml:space="preserve">
+    <value>参与</value>
+  </data>
+  <data name="GameState.LastAction.Swap1" xml:space="preserve">
+    <value>换牌</value>
+  </data>
+  <data name="Model.NumofPlayers1" xml:space="preserve">
+    <value>玩家人数： {0}</value>
+  </data>
+  <data name="Model.WelcomePlayers1" xml:space="preserve">
+    <value>欢迎来到涂鸦拼字！</value>
+  </data>
+  <data name="Player.PlayerException1" xml:space="preserve">
+    <value>玩家比分例外</value>
+  </data>
+  <data name="Player.PlayerScore.1" xml:space="preserve">
+    <value>玩家{0}</value>
+  </data>
+  <data name="Player.PlayerScore.2" xml:space="preserve">
+    <value>新增积分{0}</value>
+  </data>
+  <data name="Tile.Tles.TileException1" xml:space="preserve">
+    <value>字母牌对比例外</value>
+  </data>
+  <data name="View.DesktopWindow.FindFriends" xml:space="preserve">
+    <value>寻找朋友！</value>
+  </data>
+  <data name="View.DesktopWindow.FinishTurn" xml:space="preserve">
+    <value>玩家{0}的这轮结束了！</value>
+  </data>
+  <data name="View.DesktopWindow.FirstPlayer1" xml:space="preserve">
+    <value>首先开始的是玩家{0}</value>
+  </data>
+  <data name="View.DesktopWindow.GameJudgeScore1" xml:space="preserve">
+    <value>游戏裁判：你没有得分。再接再厉！</value>
+  </data>
+  <data name="View.DesktopWindow.GameStart1" xml:space="preserve">
+    <value>游戏正式开始......</value>
+  </data>
+  <data name="View.DesktopWindow.NoFriends" xml:space="preserve">
+    <value>玩家人数不足，邀请更多朋友参与涂鸦拼字吧！</value>
+  </data>
+  <data name="View.DesktopWindow.NumofPlayers1" xml:space="preserve">
+    <value>玩家人数：{0}</value>
+  </data>
+  <data name="View.DesktopWindow.PlayerPass1" xml:space="preserve">
+    <value>玩家{0}决定跳过这轮！</value>
+  </data>
+  <data name="View.DesktopWindow.PlayerWord1" xml:space="preserve">
+    <value>玩家{0}完成的单词：</value>
+  </data>
+  <data name="View.DesktopWindow.Restart" xml:space="preserve">
+    <value>关闭这个窗口以重启游戏！</value>
+  </data>
+  <data name="View.DesktopWindow.Scores1" xml:space="preserve">
+    <value>（当前积分：{0}）</value>
+  </data>
+  <data name="View.DesktopWindow.Skip" xml:space="preserve">
+    <value>玩家{0}跳过了这轮。</value>
+  </data>
+  <data name="View.DesktopWindow.Swap" xml:space="preserve">
+    <value>玩家{0}换了字母牌。</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.CannotSwap1" xml:space="preserve">
+    <value>目前你背包内的字母牌不足七枚，无法换牌。</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.CanSwap1" xml:space="preserve">
+    <value>请选择你不想要的字母牌，然后点击结束按钮。</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.Content.Finish1" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.Content.Swap1" xml:space="preserve">
+    <value>换牌</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.FinishSwapping1" xml:space="preserve">
+    <value>玩家{0}马上换好牌</value>
+  </data>
+  <data name="View.DesktopWindow.TileDraw.1" xml:space="preserve">
+    <value>玩家{0}</value>
+  </data>
+  <data name="View.DesktopWindow.TileDraw.2" xml:space="preserve">
+    <value>拿到了{0}</value>
+  </data>
+  <data name="View.DesktopWindow.Title1" xml:space="preserve">
+    <value>ScrabbleDesktop - Player {0}</value>
+  </data>
+  <data name="View.DesktopWindow.UpdatePlayerInfoTurn1" xml:space="preserve">
+    <value>当前轮到玩家{0}</value>
+  </data>
+  <data name="View.DesktopWindow.Winner" xml:space="preserve">
+    <value>玩家{0}以{1}分赢得了本场游戏！恭喜！</value>
+  </data>
+  <data name="View.DesktopWindow.YourTurn1" xml:space="preserve">
+    <value>轮到你了！</value>
+  </data>
+  <data name="View.MobileWindow.Finish" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="View.MobileWindow.Player" xml:space="preserve">
+    <value>当前玩家：</value>
+  </data>
+  <data name="View.MobileWindow.PlayerP" xml:space="preserve">
+    <value>当前玩家：{0}；积分：</value>
+  </data>
+  <data name="View.MobileWindow.Swap" xml:space="preserve">
+    <value>换牌</value>
+  </data>
+  <data name="View.MobileWindow.Winner" xml:space="preserve">
+    <value>玩家{0}以{1}分获胜！</value>
+  </data>
+  <data name="View.MobileWindow.YourTurn" xml:space="preserve">
+    <value>轮到你了！</value>
+  </data>
+  <data name="View.TextWindow.Done" xml:space="preserve">
+    <value>Press Submit or ENTER key when you're done.</value>
+  </data>
+  <data name="View.TextWindow.Finish" xml:space="preserve">
+    <value>玩家{0}的这轮结束了！</value>
+  </data>
+  <data name="View.TextWindow.Gameintro" xml:space="preserve">
+    <value>本场游戏共有{0}名玩家。</value>
+  </data>
+  <data name="View.TextWindow.Judge" xml:space="preserve">
+    <value>游戏裁判表示：你没有得分。请再试一次！</value>
+  </data>
+  <data name="View.TextWindow.ListOfPlayers" xml:space="preserve">
+    <value>玩家</value>
+  </data>
+  <data name="View.TextWindow.MakeaMove" xml:space="preserve">
+    <value>\"把A和B对调\"或者\"挪动A(7,7)\"或者\"跳过\"或者\"查看排名\"。</value>
+  </data>
+  <data name="View.TextWindow.Pass" xml:space="preserve">
+    <value>玩家{0}跳过了这轮！</value>
+  </data>
+  <data name="View.TextWindow.PlayerNow" xml:space="preserve">
+    <value>玩家{0}先开始！</value>
+  </data>
+  <data name="View.TextWindow.PlayerWords" xml:space="preserve">
+    <value>以下发言来自玩家</value>
+  </data>
+  <data name="View.TextWindow.PrintScore" xml:space="preserve">
+    <value>各个玩家的得分：</value>
+  </data>
+  <data name="View.TextWindow.RejectInput" xml:space="preserve">
+    <value>游戏裁判表示：你输入的指令有误。请再试一次！</value>
+  </data>
+  <data name="View.TextWindow.RejectSwap" xml:space="preserve">
+    <value>游戏裁判表示：之后你不能再换牌了！</value>
+  </data>
+  <data name="View.TextWindow.Score" xml:space="preserve">
+    <value>（{0}分）</value>
+  </data>
+  <data name="View.TextWindow.Start" xml:space="preserve">
+    <value>游戏正式开始......</value>
+  </data>
+  <data name="View.TextWindow.Swap" xml:space="preserve">
+    <value>玩家{0}交换了字母牌！</value>
+  </data>
+  <data name="View.TextWindow.TileChar" xml:space="preserve">
+    <value>玩家{0}得到了“{1}”字母牌！  </value>
+  </data>
+  <data name="View.TextWindow.TilesDetails" xml:space="preserve">
+    <value>***你当前拥有以下字母牌：</value>
+  </data>
+  <data name="View.TextWindow.Title" xml:space="preserve">
+    <value>涂鸦拼字游戏端玩家：</value>
+  </data>
+  <data name="View.TextWindow.Type" xml:space="preserve">
+    <value>请输入你指令：</value>
+  </data>
+  <data name="View.TextWindow.Winner" xml:space="preserve">
+    <value>玩家{0}以{1}分获胜！</value>
+  </data>
+  <data name="View.TextWindow.WrongMove" xml:space="preserve">
+    <value>游戏裁判表示：移动指令有误。请再试一次。</value>
+  </data>
+  <data name="View.TextWindow.YourTurn" xml:space="preserve">
+    <value>轮到你了！</value>
+  </data>
+</root>
