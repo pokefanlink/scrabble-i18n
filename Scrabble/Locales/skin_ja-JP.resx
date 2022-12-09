@@ -1,101 +1,381 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AssemblyInfo.AssemblyCompany" xml:space="preserve">
+    <value>Hewlett-Packard</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyConfiguration" xml:space="preserve">
+    <value />
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyCopyright" xml:space="preserve">
+    <value>著作権 Hewlett-Packard 2018</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyCulture" xml:space="preserve">
+    <value />
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyDescription" xml:space="preserve">
+    <value />
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyFileVersion" xml:space="preserve">
+    <value>1.0.0.0</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyProduct" xml:space="preserve">
+    <value>スクラブル</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyTitle" xml:space="preserve">
+    <value>スクラブル</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyTrademark" xml:space="preserve">
+    <value />
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="AssemblyInfo.AssemblyVersion" xml:space="preserve">
+    <value>1.0.0.0</value>
+    <comment>In an array, shows error, need to ask David</comment>
+  </data>
+  <data name="GameState.LastAction.Pass" xml:space="preserve">
+    <value>パス</value>
+  </data>
+  <data name="GameState.LastAction.Play" xml:space="preserve">
+    <value>プレイ</value>
+  </data>
+  <data name="GameState.LastAction.Swap" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Model.NumofPlayers" xml:space="preserve">
+    <value>プレイ人数：{0}</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="Model.WelcomePlayers" xml:space="preserve">
+    <value>プレイヤー、スクラブルへようこそ！</value>
+  </data>
+  <data name="Player.PlayerException" xml:space="preserve">
+    <value>Players Comparison Exception</value>
+    <comment>WTF does this mean?</comment>
+  </data>
+  <data name="Player.PlayerScore.1" xml:space="preserve">
+    <value>プレイヤー{0}</value>
+    <comment>beware concatenation- redesign complete</comment>
+  </data>
+  <data name="Player.PlayerScore.2" xml:space="preserve">
+    <value> {0}スコアした</value>
+    <comment>redesign complete, split 2/2</comment>
+  </data>
+  <data name="Tile.Tles.TileException" xml:space="preserve">
+    <value>Tiles Comparison Exception</value>
+    <comment>WTF does this mean?</comment>
+  </data>
+  <data name="View.DesktopWindow.FindFriends" xml:space="preserve">
+    <value>友達を作ってください。</value>
+  </data>
+  <data name="View.DesktopWindow.FinishTurn" xml:space="preserve">
+    <value>プレイヤー{0}のターン、終了</value>
+    <comment>This part and on has to be put in the resource file</comment>
+  </data>
+  <data name="View.DesktopWindow.FirstPlayer" xml:space="preserve">
+    <value>プレイヤー {0}、はじめ！</value>
+    <comment>beware concatenation, redesign complete, split 1/2</comment>
+  </data>
+  <data name="View.DesktopWindow.GameJudgeScore" xml:space="preserve">
+    <value>ゲームマスター： スコアができなかった！もう一回！</value>
+  </data>
+  <data name="View.DesktopWindow.GameStart" xml:space="preserve">
+    <value>ゲームスタート</value>
+  </data>
+  <data name="View.DesktopWindow.NoFriends" xml:space="preserve">
+    <value>スクラブルをやるため、友達がいります。</value>
+  </data>
+  <data name="View.DesktopWindow.NumofPlayers" xml:space="preserve">
+    <value>プレイ人数：{0}</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.PlayerPass" xml:space="preserve">
+    <value>パスした！ プレイヤー {0}、はじめ！</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.PlayerWord" xml:space="preserve">
+    <value>プレイヤー {0} の作った単語: </value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.Restart" xml:space="preserve">
+    <value>もう一度やれば、このウインドウをしめて。</value>
+  </data>
+  <data name="View.DesktopWindow.Scores" xml:space="preserve">
+    <value>({0} スコアした)</value>
+    <comment>beware concatenation- redesign - okay as is</comment>
+  </data>
+  <data name="View.DesktopWindow.Skip" xml:space="preserve">
+    <value>プレイヤー{0}スキップした！</value>
+  </data>
+  <data name="View.DesktopWindow.Swap" xml:space="preserve">
+    <value>プレイヤー{0}タイルをスオップした！</value>
+    <comment>Scrabble2018.Locales.skin.</comment>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.CannotSwap" xml:space="preserve">
+    <value>袋に７タイルがあるのでスオップできません。</value>
+    <comment>You can't swap tiles now becuase less than 7 tiles are left in the bag!</comment>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.CanSwap" xml:space="preserve">
+    <value>欲しくないタイルを選んで、終了押してください。</value>
+    <comment>Select the tiles you don't want...Then press the FINISH button.</comment>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.Content.Finish" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.Content.Swap" xml:space="preserve">
+    <value>スオップ</value>
+  </data>
+  <data name="View.DesktopWindow.SwapButton.FinishSwapping" xml:space="preserve">
+    <value>プレイヤー {0}のスオップ終了！　</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.TileDraw.1" xml:space="preserve">
+    <value>プレイヤー{0}</value>
+    <comment>beware concatenation, redesign complete. split 1/2</comment>
+  </data>
+  <data name="View.DesktopWindow.TileDraw.2" xml:space="preserve">
+    <value> {0}スコアした！</value>
+    <comment>redesign concatenation, split 2/2</comment>
+  </data>
+  <data name="View.DesktopWindow.Title" xml:space="preserve">
+    <value>ScrabbleDesktop - Player {0}</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.UpdatePlayerInfoTurn" xml:space="preserve">
+    <value>プレイヤー{0}のターン!</value>
+    <comment>beware concatenation, redesign complete</comment>
+  </data>
+  <data name="View.DesktopWindow.Winner" xml:space="preserve">
+    <value>プレイヤー{0}の勝ち、スコア：{1}</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.DesktopWindow.YourTurn" xml:space="preserve">
+    <value>あなたのターン！</value>
+  </data>
+  <data name="View.MobileWindow.Finish" xml:space="preserve">
+    <value>終了</value>
+  </data>
+  <data name="View.MobileWindow.Player" xml:space="preserve">
+    <value>今のプレイヤー: </value>
+  </data>
+  <data name="View.MobileWindow.PlayerP" xml:space="preserve">
+    <value>今: P. {0} | スコア: </value>
+    <comment>Now: P {0} | Score: </comment>
+  </data>
+  <data name="View.MobileWindow.Swap" xml:space="preserve">
+    <value>スオップ</value>
+  </data>
+  <data name="View.MobileWindow.Winner" xml:space="preserve">
+    <value>P. {0}の勝ち、スコア：{1}</value>
+  </data>
+  <data name="View.MobileWindow.YourTurn" xml:space="preserve">
+    <value>あなたのターン！</value>
+  </data>
+  <data name="View.TextWindow.Done" xml:space="preserve">
+    <value>終わったら、サブミットをクリックするか、ENTERキーを押して。</value>
+    <comment>Press Submit or ENTER key when you're done.</comment>
+  </data>
+  <data name="View.TextWindow.Finish" xml:space="preserve">
+    <value>プレイヤー{0}、ターン終了！</value>
+    <comment>Player {0} finished their turn!</comment>
+  </data>
+  <data name="View.TextWindow.Gameintro" xml:space="preserve">
+    <value>これは {0} プレイヤーのゲーム</value>
+    <comment>{0} - Number of players</comment>
+  </data>
+  <data name="View.TextWindow.Judge" xml:space="preserve">
+    <value>ゲームマスター： スコアができなかった！もう一回！</value>
+    <comment>Game Judge: You didn't score. Please try again!</comment>
+  </data>
+  <data name="View.TextWindow.ListOfPlayers" xml:space="preserve">
+    <value>プレイヤー</value>
+    <comment>inside a for loop</comment>
+  </data>
+  <data name="View.TextWindow.MakeaMove" xml:space="preserve">
+    <value>\"SWAP A B...\" or \"MOVE A(7,7) ...\" to place or \"PASS\" or \"RANK\".</value>
+    <comment>IDK what to do with this one</comment>
+  </data>
+  <data name="View.TextWindow.Pass" xml:space="preserve">
+    <value>プレイヤー{0}パスした！</value>
+    <comment>Player {0} passed!</comment>
+  </data>
+  <data name="View.TextWindow.PlayerNow" xml:space="preserve">
+    <value>プレイヤー{0}スタート！</value>
+  </data>
+  <data name="View.TextWindow.PlayerWords" xml:space="preserve">
+    <value>下記の言葉を残したのはプレイヤー</value>
+    <comment>Original: "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words:" ; I redesigned and directly concatenated variable </comment>
+  </data>
+  <data name="View.TextWindow.PrintScore" xml:space="preserve">
+    <value>プレイヤースコア:</value>
+  </data>
+  <data name="View.TextWindow.RejectInput" xml:space="preserve">
+    <value>ゲームマスター: 出来ない指令を入力しました。</value>
+    <comment>Game Judge: You've input a wrong command. Please try again!</comment>
+  </data>
+  <data name="View.TextWindow.RejectSwap" xml:space="preserve">
+    <value>ゲームマスター: 今からスオップできません。</value>
+    <comment>Game Judge: You can't swap from now on!</comment>
+  </data>
+  <data name="View.TextWindow.Score" xml:space="preserve">
+    <value>　スコア</value>
+    <comment>Original: s += kvp.Key + "(" + kvp.Value + " scores) "; I redesigned</comment>
+  </data>
+  <data name="View.TextWindow.Start" xml:space="preserve">
+    <value>ゲームスタート</value>
+  </data>
+  <data name="View.TextWindow.Swap" xml:space="preserve">
+    <value>プレイヤー{0}スオップした！</value>
+    <comment>Player {0} swapped their tiles!</comment>
+  </data>
+  <data name="View.TextWindow.TileChar" xml:space="preserve">
+    <value>プレイヤー {0}、{1}ゲットした!  </value>
+    <comment>{1} - kvp.Value.TileChar</comment>
+  </data>
+  <data name="View.TextWindow.TilesDetails" xml:space="preserve">
+    <value>***タイル数: </value>
+    <comment>***can stay as is</comment>
+  </data>
+  <data name="View.TextWindow.Title" xml:space="preserve">
+    <value>Player - ScrabbleConsole:</value>
+    <comment>no {0} since "P+1" was directly concatenated into the string</comment>
+  </data>
+  <data name="View.TextWindow.Type" xml:space="preserve">
+    <value>キーボードで入力しなさい。</value>
+  </data>
+  <data name="View.TextWindow.Winner" xml:space="preserve">
+    <value>P. {0}の勝ち、スコア：{1}</value>
+    <comment>Winner is P {0} with scores {1}!</comment>
+  </data>
+  <data name="View.TextWindow.WrongMove" xml:space="preserve">
+    <value>ゲームマスター: MOVEは違いました。</value>
+    <comment>Game Judge: Wrong MOVE arguments. Please try again.</comment>
+  </data>
+  <data name="View.TextWindow.YourTurn" xml:space="preserve">
+    <value>あなたのターン！</value>
+  </data>
 </root>
