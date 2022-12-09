@@ -174,8 +174,18 @@
     <value>Points Scored: {0}</value>
     <comment>redesign complete. split 2/2</comment>
   </data>
+  <data name="String1View.TextWindow.Done" xml:space="preserve">
+    <value>Press Submit or ENTER key when you're done.</value>
+  </data>
   <data name="Tile.Tles.TileException" xml:space="preserve">
     <value>Tiles Comparison Exception</value>
+  </data>
+  <data name="View.DesktopWindow.FindFriends" xml:space="preserve">
+    <value>Find friends!</value>
+  </data>
+  <data name="View.DesktopWindow.FinishTurn" xml:space="preserve">
+    <value>Player {0} finished their turn!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
   </data>
   <data name="View.DesktopWindow.FirstPlayer" xml:space="preserve">
     <value>First up is player {0}</value>
@@ -186,6 +196,9 @@
   </data>
   <data name="View.DesktopWindow.GameStart" xml:space="preserve">
     <value>Game starts...</value>
+  </data>
+  <data name="View.DesktopWindow.NoFriends" xml:space="preserve">
+    <value>You need more friends to start Scrabble!!!</value>
   </data>
   <data name="View.DesktopWindow.NumofPlayers" xml:space="preserve">
     <value>Number of players: {0}</value>
@@ -199,9 +212,20 @@
     <value>Words created by Player {0}:</value>
     <comment>beware concatenation, redesign complete</comment>
   </data>
+  <data name="View.DesktopWindow.Restart" xml:space="preserve">
+    <value>Close this window to restart Scrabble!</value>
+  </data>
   <data name="View.DesktopWindow.Scores" xml:space="preserve">
     <value>({0} scores)</value>
     <comment>beware concatenation- redesign - okay as is</comment>
+  </data>
+  <data name="View.DesktopWindow.Skip" xml:space="preserve">
+    <value>Player {0} skipped their turn.</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.DesktopWindow.Swap" xml:space="preserve">
+    <value>Player {0} swapped their tiles.</value>
+    <comment>Beware, concationation. Needs redesign</comment>
   </data>
   <data name="View.DesktopWindow.SwapButton.CannotSwap" xml:space="preserve">
     <value>You can't swap tiles now becuase less than 7 tiles are left in the bag!</value>
@@ -235,7 +259,101 @@
     <value>Now playing: Player {0}</value>
     <comment>beware concatenation, redesign complete</comment>
   </data>
+  <data name="View.DesktopWindow.Winner" xml:space="preserve">
+    <value>Game Winner is Player {0}  with scores {1}!!!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
   <data name="View.DesktopWindow.YourTurn" xml:space="preserve">
     <value>Your turn!</value>
+  </data>
+  <data name="View.MobileWindow.Finish" xml:space="preserve">
+    <value>FINISH</value>
+  </data>
+  <data name="View.MobileWindow.Player" xml:space="preserve">
+    <value>Player now:</value>
+  </data>
+  <data name="View.MobileWindow.PlayerP" xml:space="preserve">
+    <value>Now: P {0} | Score:</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.MobileWindow.Swap" xml:space="preserve">
+    <value>SWAP</value>
+  </data>
+  <data name="View.MobileWindow.Winner" xml:space="preserve">
+    <value>Winner is P {0} with scores {1}!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.MobileWindow.YourTurn" xml:space="preserve">
+    <value>Your turn!</value>
+  </data>
+  <data name="View.TextWindow.Finish" xml:space="preserve">
+    <value>Player {0} finished their turn!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.Gameintro" xml:space="preserve">
+    <value>This is a {0} players game.</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.Judge" xml:space="preserve">
+    <value>Game Judge: You didn't score. Please try again!</value>
+  </data>
+  <data name="View.TextWindow.ListOfPlayers" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="View.TextWindow.MakeaMove" xml:space="preserve">
+    <value>\"SWAP A B...\" or \"MOVE A(7,7) ...\" to place or \"PASS\" or \"RANK\".</value>
+  </data>
+  <data name="View.TextWindow.Pass" xml:space="preserve">
+    <value>Player {0} passed!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.PlayerNow" xml:space="preserve">
+    <value>Player {0} first!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.PlayerWords" xml:space="preserve">
+    <value>Says Player</value>
+  </data>
+  <data name="View.TextWindow.PrintScore" xml:space="preserve">
+    <value>Scores of each player:</value>
+  </data>
+  <data name="View.TextWindow.RejectInput" xml:space="preserve">
+    <value>Game Judge: You've input a wrong command. Please try again!</value>
+  </data>
+  <data name="View.TextWindow.RejectSwap" xml:space="preserve">
+    <value>Game Judge: You can't swap from now on!</value>
+  </data>
+  <data name="View.TextWindow.Score" xml:space="preserve">
+    <value>({0} scores)</value>
+  </data>
+  <data name="View.TextWindow.Start" xml:space="preserve">
+    <value>Game starts...</value>
+  </data>
+  <data name="View.TextWindow.Swap" xml:space="preserve">
+    <value>Player {0} swapped their tiles!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.TileChar" xml:space="preserve">
+    <value>Player {0} gets {1}!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.TilesDetails" xml:space="preserve">
+    <value>***You have tiles:</value>
+  </data>
+  <data name="View.TextWindow.Title" xml:space="preserve">
+    <value>Player - ScrabbleConsole:</value>
+  </data>
+  <data name="View.TextWindow.Type" xml:space="preserve">
+    <value>Input by typing:</value>
+  </data>
+  <data name="View.TextWindow.Winner" xml:space="preserve">
+    <value>Winner is P {0} with scores {1}!</value>
+    <comment>Beware, concationation. Needs redesign</comment>
+  </data>
+  <data name="View.TextWindow.WrongMove" xml:space="preserve">
+    <value>Game Judge: Wrong MOVE arguments. Please try again.</value>
+  </data>
+  <data name="View.TextWindow.YourTurn" xml:space="preserve">
+    <value>Your turn now!</value>
   </data>
 </root>
