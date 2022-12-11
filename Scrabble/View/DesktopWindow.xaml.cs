@@ -157,7 +157,7 @@ namespace Scrabble
         private void UpdatePlayerInfoLbl(int p)
         {
             //PlayerInfoLbl.Content = "Player " + (p + 1) + "'s turn.";
-            PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View_DesktopWindow_UpdatePlayerInfoTurn, (p + 1);
+            PlayerInfoLbl.Content = (Scrabble2018.Locales.skin.View_DesktopWindow_UpdatePlayerInfoTurn, (p + 1));
             //Ask David
             //Player {0}'s turn. --> Turn: Player {0}
         }
