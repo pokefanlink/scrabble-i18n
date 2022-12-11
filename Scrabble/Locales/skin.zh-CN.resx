@@ -330,4 +330,13 @@
   <data name="View.TextWindow.YourTurn" xml:space="preserve">
     <value>轮到你了！</value>
   </data>
+    <data name="View.BlankTileForm.Text" xml:space="preserve">
+    <value>请选一个字母代表空白的字母牌：</value>
+  </data>
+  <data name="View.BlankTileForm.Title" xml:space="preserve">
+    <value>空白字母牌</value>
+  </data>
+  <data name="View.BlankTileForm.Button" xml:space="preserve">
+    <value>完成</value>
+  </data>
 </root>
