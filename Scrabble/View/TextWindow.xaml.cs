@@ -145,7 +145,7 @@ namespace Scrabble
         private void ListingPrevWords()
         {
             //string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
-            string s = Scrabble2018.Locales.skin.View.TextWindow.PlayerWords + (GameState.GSInstance.PrevPlayer + 1);
+            string s = Scrabble2018.Locales.skin.View.TextWindow.PlayerWords, (GameState.GSInstance.PrevPlayer + 1);
             foreach (KeyValuePair<string, int> kvp in GameState.GSInstance.CorrectWords)
             {
                 //s += kvp.Key + "(" + kvp.Value + " scores) ";

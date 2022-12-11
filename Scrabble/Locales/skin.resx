@@ -240,7 +240,7 @@
     <value>SWAP</value>
   </data>
   <data name="View.DesktopWindow.SwapButton.FinishSwapping" xml:space="preserve">
-    <value>This player is finishing swapping tiles! Player {0}</value>
+    <value>This player is finished swapping tiles! Player {0}</value>
     <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.TileDraw1" xml:space="preserve">
@@ -260,7 +260,7 @@
     <comment>beware concatenation, redesign complete</comment>
   </data>
   <data name="View.DesktopWindow.Winner" xml:space="preserve">
-    <value>Game Winner is Player {0}  with scores {1}!!!</value>
+    <value>Game Winner is Player {0}  with {1} points!!!</value>
     <comment>Beware, concationation. Needs redesign</comment>
   </data>
   <data name="View.DesktopWindow.YourTurn" xml:space="preserve">
@@ -312,7 +312,8 @@
     <comment>Beware, concationation. Needs redesign</comment>
   </data>
   <data name="View.TextWindow.PlayerWords" xml:space="preserve">
-    <value>Says Player</value>
+    <value>Player {0} made the words:</value>
+    <comment>12/10 changed this to reflect the commented string:             //string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";</comment>
   </data>
   <data name="View.TextWindow.PrintScore" xml:space="preserve">
     <value>Scores of each player:</value>
