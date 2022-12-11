@@ -69,7 +69,7 @@ namespace Scrabble
             foreach (KeyValuePair<int, Tile> kvp in GameStartDraw.Drawn)
             {
                 //LogBoardWriter("Player " + (kvp.Key + 1) + " gets " + kvp.Value.TileChar + "!");
-                LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw1, (kvp.Key + 1),Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw2 kvp.Value.TileChar);
+                LogBoardWriter(Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw1, (kvp.Key + 1),Scrabble2018.Locales.skin.View_DesktopWindow_TileDraw2,kvp.Value.TileChar);
                 //redesign split into two strings ; Player {0} gets {1}! --> Player {0} + gets {0}
             }
 
@@ -223,7 +223,7 @@ namespace Scrabble
 
         private void ListingPrevWords()
         {
-            string s = Scrabble2018.Locales.skin.View_DesktopWindow_PlayerWord, (GameState.GSInstance.PrevPlayer + 1) + ":";
+            string s = (Scrabble2018.Locales.skin.View_DesktopWindow_PlayerWord, (GameState.GSInstance.PrevPlayer + 1));
             //string s = "Player " + (GameState.GSInstance.PrevPlayer + 1) + " made the words: ";
             //Ask David -- question about the colon/punctuation
             //Player {0} made the words: --> Words created by Player {0}
