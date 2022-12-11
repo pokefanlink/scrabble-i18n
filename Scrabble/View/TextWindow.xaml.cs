@@ -206,7 +206,7 @@ namespace Scrabble
                 else
                 {
                     //ConsoleBoardWriter("Game Judge: Wrong MOVE arguments. Please try again.");
-                    ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.WrongMove);
+                    ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.WrongMove);                    
                     LoadBoardView();
                     LoadRackView();
                     Retry();
@@ -223,7 +223,8 @@ namespace Scrabble
             }
             else
             {
-                ConsoleBoardWriter("Game Judge: \"You didn't score. Please try again!\"");
+                //ConsoleBoardWriter("Game Judge: \"You didn't score. Please try again!\"");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Judge);
                 LoadBoardView();
                 Retry();
             }
@@ -287,7 +288,8 @@ namespace Scrabble
         {
             // Enable all buttons
 
-            ConsoleBoardWriter("Player " + (GameState.GSInstance.PrevPlayer + 1) + " finished his turn!");
+            //ConsoleBoardWriter("Player " + (GameState.GSInstance.PrevPlayer + 1) + " finished his turn!");
+            FinishTurn.Text = String.Format(Scrabble2018.Locales.skin.View.TextWindow.FinishTurn, GameState.GSInstance.PrevPlayer + 1);            
             if (game.GameEnd())
             {
                 foreach (Player p in game.gs.ListOfPlayers)
