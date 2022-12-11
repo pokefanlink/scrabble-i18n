@@ -156,7 +156,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Locales\skin.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>skin.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Locales\skin_ja-JP.resx">

@@ -4,10 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
+        xmlns:local="clr-namespace:Scrabble"
         Title="Scrabble" Height="620" Width="478"
         Background="AntiqueWhite" 
         ResizeMode="CanMinimize"
         >
+    <!-- xmlns:local="clr-namespace:Scrabble" is code that allows xaml to read files from Scrabble, ie. resource files. This is still a work in progress by Linh but will be fixed!!-->
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="61*"/>
@@ -19,36 +21,48 @@
             <ComboBox Name="CB1" HorizontalAlignment="Left" Margin="167,16.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi1"></ComboBoxItem>
                 <ComboBoxItem Name="cbi2">Desktop</ComboBoxItem>
+                <!--Desktop-->
                 <ComboBoxItem Name="cbi3">Text</ComboBoxItem>
+                <!--Text-->
                 <ComboBoxItem Name="cbi4">Mobile</ComboBoxItem>
+                <!--Mobile-->
             </ComboBox>
             <ComboBox Name="CB2" HorizontalAlignment="Left" Margin="167,195.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi5"></ComboBoxItem>
                 <ComboBoxItem Name="cbi6">Desktop</ComboBoxItem>
+                <!--Desktop-->
                 <ComboBoxItem Name="cbi7">Text</ComboBoxItem>
+                <!--Text-->
                 <ComboBoxItem Name="cbi8">Mobile</ComboBoxItem>
+                <!--Mobile-->
             </ComboBox>
             <ComboBox Name="CB3" HorizontalAlignment="Left" Margin="167,135.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi9"></ComboBoxItem>
                 <ComboBoxItem Name="cbi10">Desktop</ComboBoxItem>
+                <!--Desktop-->
                 <ComboBoxItem Name="cbi11">Text</ComboBoxItem>
+                <!--Text-->
                 <ComboBoxItem Name="cbi12">Mobile</ComboBoxItem>
+                <!--Mobile-->
             </ComboBox>
             <ComboBox Name="CB4" HorizontalAlignment="Left" Margin="167,74.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="121" Height="21">
                 <ComboBoxItem Name="cbi13"></ComboBoxItem>
                 <ComboBoxItem Name="cbi14">Desktop</ComboBoxItem>
+                <!--Desktop-->
                 <ComboBoxItem Name="cbi15">Text</ComboBoxItem>
+                <!--Text-->
                 <ComboBoxItem Name="cbi16">Mobile</ComboBoxItem>
+                <!--Mobile-->
             </ComboBox>
         </Grid>
 
-        <Label Content="Player 4" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,194.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
-        <Label Content="Player 3" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,134.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="65"/>
-        <Label Content="Player 2" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="81,73.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
-        <Label Content="Player 1" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,14.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="63"/>
-        <Label x:Name="Label_Copy" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center" Content="Welcome players!" HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
-        <Button Content="Start" Name="StartButton" FontFamily="Georgia" FontSize="27" Background="Goldenrod" HorizontalAlignment="Left" Margin="349,176.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="64" Click="Button_Click"/>
-        <Button Content="About" FontFamily="Georgia" FontSize="15" Background="AntiqueWhite" HorizontalAlignment="Left" Margin="349,144.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="20" Click="AboutButton_Click"/>
+        <!--Player 4--><Label Content="Player 4" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,194.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
+        <!--Player 3--><Label Content="Player 3" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,134.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="65"/>
+        <!--Player 2--><Label Content="Player 2" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="81,73.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="24" Width="65"/>
+        <!--Player 1--><Label Content="Player 1" FontSize="13" FontFamily="Georgia" HorizontalAlignment="Left" Margin="82,14.4,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25" Width="63"/>
+        <!--Welcome players!--><Label x:Name="Label_Copy" Content="Welcome players!" FontSize="30" FontFamily="Georgia" HorizontalContentAlignment="Center"  HorizontalAlignment="Left" Margin="10,173,0,0" VerticalAlignment="Top" Height="51" Width="452"/>
+        <!--Start--><Button Content="Start" Name="StartButton" FontFamily="Georgia" FontSize="27" Background="Goldenrod" HorizontalAlignment="Left" Margin="349,176.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="64" Click="Button_Click"/>
+        <!--About--><Button Content="About" FontFamily="Georgia" FontSize="15" Background="AntiqueWhite" HorizontalAlignment="Left" Margin="349,144.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="89" Height="20" Click="AboutButton_Click"/>
 
     </Grid>
 </Window>

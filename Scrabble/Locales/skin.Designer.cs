@@ -22,7 +22,7 @@ namespace Scrabble2018.Locales {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class skin {
+    public class skin {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Scrabble2018.Locales {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Scrabble2018.Locales.skin", typeof(skin).Assembly);
@@ -51,7 +51,7 @@ namespace Scrabble2018.Locales {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Hewlett-Packard.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyCompany {
+        public static string AssemblyInfo_AssemblyCompany {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyCompany", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string AssemblyInfo_AssemblyConfiguration {
+        public static string AssemblyInfo_AssemblyConfiguration {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyConfiguration", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Copyright © Hewlett-Packard 2018.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyCopyright {
+        public static string AssemblyInfo_AssemblyCopyright {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyCopyright", resourceCulture);
             }
@@ -90,7 +90,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string AssemblyInfo_AssemblyCulture {
+        public static string AssemblyInfo_AssemblyCulture {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyCulture", resourceCulture);
             }
@@ -99,7 +99,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string AssemblyInfo_AssemblyDescription {
+        public static string AssemblyInfo_AssemblyDescription {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyDescription", resourceCulture);
             }
@@ -108,7 +108,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to 1.0.0.0.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyFileVersion {
+        public static string AssemblyInfo_AssemblyFileVersion {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyFileVersion", resourceCulture);
             }
@@ -117,7 +117,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Scrabble.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyProduct {
+        public static string AssemblyInfo_AssemblyProduct {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyProduct", resourceCulture);
             }
@@ -126,7 +126,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Scrabble.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyTitle {
+        public static string AssemblyInfo_AssemblyTitle {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyTitle", resourceCulture);
             }
@@ -135,7 +135,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        internal static string AssemblyInfo_AssemblyTrademark {
+        public static string AssemblyInfo_AssemblyTrademark {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyTrademark", resourceCulture);
             }
@@ -144,7 +144,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to 1.0.0.0.
         /// </summary>
-        internal static string AssemblyInfo_AssemblyVersion {
+        public static string AssemblyInfo_AssemblyVersion {
             get {
                 return ResourceManager.GetString("AssemblyInfo.AssemblyVersion", resourceCulture);
             }
@@ -153,7 +153,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to pass.
         /// </summary>
-        internal static string GameState_LastAction_Pass {
+        public static string GameState_LastAction_Pass {
             get {
                 return ResourceManager.GetString("GameState.LastAction.Pass", resourceCulture);
             }
@@ -162,7 +162,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to play.
         /// </summary>
-        internal static string GameState_LastAction_Play {
+        public static string GameState_LastAction_Play {
             get {
                 return ResourceManager.GetString("GameState.LastAction.Play", resourceCulture);
             }
@@ -171,16 +171,25 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to swap.
         /// </summary>
-        internal static string GameState_LastAction_Swap {
+        public static string GameState_LastAction_Swap {
             get {
                 return ResourceManager.GetString("GameState.LastAction.Swap", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Please select your interfaces!.
+        /// </summary>
+        public static string Interfaces {
+            get {
+                return ResourceManager.GetString("Interfaces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Number of players: {0}.
         /// </summary>
-        internal static string Model_NumofPlayers {
+        public static string Model_NumofPlayers {
             get {
                 return ResourceManager.GetString("Model.NumofPlayers", resourceCulture);
             }
@@ -189,7 +198,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Welcome players! Welcome to Scrabble!.
         /// </summary>
-        internal static string Model_WelcomePlayers {
+        public static string Model_WelcomePlayers {
             get {
                 return ResourceManager.GetString("Model.WelcomePlayers", resourceCulture);
             }
@@ -198,34 +207,106 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Players Comparison Exception.
         /// </summary>
-        internal static string Player_PlayerException {
+        public static string Player_PlayerException {
             get {
                 return ResourceManager.GetString("Player.PlayerException", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} scored {1} points now!.
+        ///   Looks up a localized string similar to Player {0}.
         /// </summary>
-        internal static string Player_PlayerScore {
+        public static string Player_PlayerScore1 {
             get {
-                return ResourceManager.GetString("Player.PlayerScore", resourceCulture);
+                return ResourceManager.GetString("Player.PlayerScore1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Points Scored: {0}.
+        /// </summary>
+        public static string Player_PlayerScore2 {
+            get {
+                return ResourceManager.GetString("Player.PlayerScore2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Press Submit or ENTER key when you&apos;re done..
+        /// </summary>
+        public static string String1View_TextWindow_Done {
+            get {
+                return ResourceManager.GetString("String1View.TextWindow.Done", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Tiles Comparison Exception.
         /// </summary>
-        internal static string Tile_Tles_TileException {
+        public static string Tile_Tles_TileException {
             get {
                 return ResourceManager.GetString("Tile.Tles.TileException", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Title.
+        /// </summary>
+        public static string Title {
+            get {
+                return ResourceManager.GetString("Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Done.
+        /// </summary>
+        public static string View_BlankTileForm_Button {
+            get {
+                return ResourceManager.GetString("View.BlankTileForm.Button", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Choose one letter to represent the blank tile:.
+        /// </summary>
+        public static string View_BlankTileForm_Text {
+            get {
+                return ResourceManager.GetString("View.BlankTileForm.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to BlankTileForm.
+        /// </summary>
+        public static string View_BlankTileForm_Title {
+            get {
+                return ResourceManager.GetString("View.BlankTileForm.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Find friends!.
+        /// </summary>
+        public static string View_DesktopWindow_FindFriends {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.FindFriends", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} finished their turn!.
+        /// </summary>
+        public static string View_DesktopWindow_FinishTurn {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.FinishTurn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to First up is player {0}.
         /// </summary>
-        internal static string View_DesktopWindow_FirstPlayer {
+        public static string View_DesktopWindow_FirstPlayer {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.FirstPlayer", resourceCulture);
             }
@@ -234,7 +315,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Game Judge: You didn&apos;t score. Please try again!.
         /// </summary>
-        internal static string View_DesktopWindow_GameJudgeScore {
+        public static string View_DesktopWindow_GameJudgeScore {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.GameJudgeScore", resourceCulture);
             }
@@ -243,16 +324,25 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Game starts....
         /// </summary>
-        internal static string View_DesktopWindow_GameStart {
+        public static string View_DesktopWindow_GameStart {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.GameStart", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You need more friends to start Scrabble!!!.
+        /// </summary>
+        public static string View_DesktopWindow_NoFriends {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.NoFriends", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Number of players: {0}.
         /// </summary>
-        internal static string View_DesktopWindow_NumofPlayers {
+        public static string View_DesktopWindow_NumofPlayers {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.NumofPlayers", resourceCulture);
             }
@@ -261,7 +351,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to This player decides to pass the turn! Player {0}.
         /// </summary>
-        internal static string View_DesktopWindow_PlayerPass {
+        public static string View_DesktopWindow_PlayerPass {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.PlayerPass", resourceCulture);
             }
@@ -270,25 +360,52 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Words created by Player {0}:.
         /// </summary>
-        internal static string View_DesktopWindow_PlayerWord {
+        public static string View_DesktopWindow_PlayerWord {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.PlayerWord", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close this window to restart Scrabble!.
+        /// </summary>
+        public static string View_DesktopWindow_Restart {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.Restart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ({0} scores).
         /// </summary>
-        internal static string View_DesktopWindow_Scores {
+        public static string View_DesktopWindow_Scores {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.Scores", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Player {0} skipped their turn..
+        /// </summary>
+        public static string View_DesktopWindow_Skip {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.Skip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} swapped their tiles..
+        /// </summary>
+        public static string View_DesktopWindow_Swap {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.Swap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You can&apos;t swap tiles now becuase less than 7 tiles are left in the bag!.
         /// </summary>
-        internal static string View_DesktopWindow_SwapButton_CannotSwap {
+        public static string View_DesktopWindow_SwapButton_CannotSwap {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.SwapButton.CannotSwap", resourceCulture);
             }
@@ -297,7 +414,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to Select the tiles you don&apos;t want...Then press the FINISH button..
         /// </summary>
-        internal static string View_DesktopWindow_SwapButton_CanSwap {
+        public static string View_DesktopWindow_SwapButton_CanSwap {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.SwapButton.CanSwap", resourceCulture);
             }
@@ -306,7 +423,7 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to FINISH.
         /// </summary>
-        internal static string View_DesktopWindow_SwapButton_Content_Finish {
+        public static string View_DesktopWindow_SwapButton_Content_Finish {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.SwapButton.Content.Finish", resourceCulture);
             }
@@ -315,54 +432,342 @@ namespace Scrabble2018.Locales {
         /// <summary>
         ///   Looks up a localized string similar to SWAP.
         /// </summary>
-        internal static string View_DesktopWindow_SwapButton_Content_Swap {
+        public static string View_DesktopWindow_SwapButton_Content_Swap {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.SwapButton.Content.Swap", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This player is finishing swapping tiles! Player {0}.
+        ///   Looks up a localized string similar to This player is finished swapping tiles! Player {0}.
         /// </summary>
-        internal static string View_DesktopWindow_SwapButton_FinishSwapping {
+        public static string View_DesktopWindow_SwapButton_FinishSwapping {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.SwapButton.FinishSwapping", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} gets {1}!.
+        ///   Looks up a localized string similar to Player {0}.
         /// </summary>
-        internal static string View_DesktopWindow_TileDraw {
+        public static string View_DesktopWindow_TileDraw1 {
             get {
-                return ResourceManager.GetString("View.DesktopWindow.TileDraw", resourceCulture);
+                return ResourceManager.GetString("View.DesktopWindow.TileDraw1", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Player {0} - ScrabbleDesktop.
+        ///   Looks up a localized string similar to gets {0}.
         /// </summary>
-        internal static string View_DesktopWindow_Title {
+        public static string View_DesktopWindow_TileDraw2 {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.TileDraw2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ScrabbleDesktop - Player {0}.
+        /// </summary>
+        public static string View_DesktopWindow_Title {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.Title", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Turn: Player {0}.
+        ///   Looks up a localized string similar to Now playing: Player {0}.
         /// </summary>
-        internal static string View_DesktopWindow_UpdatePlayerInfoTurn {
+        public static string View_DesktopWindow_UpdatePlayerInfoTurn {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.UpdatePlayerInfoTurn", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Game Winner is Player {0}  with {1} points!!!.
+        /// </summary>
+        public static string View_DesktopWindow_Winner {
+            get {
+                return ResourceManager.GetString("View.DesktopWindow.Winner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Your turn!.
         /// </summary>
-        internal static string View_DesktopWindow_YourTurn {
+        public static string View_DesktopWindow_YourTurn {
             get {
                 return ResourceManager.GetString("View.DesktopWindow.YourTurn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Desktop.
+        /// </summary>
+        public static string View_MainWindow_Interface_Desktop {
+            get {
+                return ResourceManager.GetString("View.MainWindow.Interface.Desktop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mobile.
+        /// </summary>
+        public static string View_MainWindow_Interface_Mobile {
+            get {
+                return ResourceManager.GetString("View.MainWindow.Interface.Mobile", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Text.
+        /// </summary>
+        public static string View_MainWindow_Interface_Text {
+            get {
+                return ResourceManager.GetString("View.MainWindow.Interface.Text", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FINISH.
+        /// </summary>
+        public static string View_MobileWindow_Finish {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.Finish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player now:.
+        /// </summary>
+        public static string View_MobileWindow_Player {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.Player", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Now: P {0} | Score:.
+        /// </summary>
+        public static string View_MobileWindow_PlayerP {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.PlayerP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SWAP.
+        /// </summary>
+        public static string View_MobileWindow_Swap {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.Swap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Winner is P {0} with scores {1}!.
+        /// </summary>
+        public static string View_MobileWindow_Winner {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.Winner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your turn!.
+        /// </summary>
+        public static string View_MobileWindow_YourTurn {
+            get {
+                return ResourceManager.GetString("View.MobileWindow.YourTurn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} finished their turn!.
+        /// </summary>
+        public static string View_TextWindow_Finish {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Finish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This is a {0} players game..
+        /// </summary>
+        public static string View_TextWindow_Gameintro {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Gameintro", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Judge: You didn&apos;t score. Please try again!.
+        /// </summary>
+        public static string View_TextWindow_Judge {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Judge", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player.
+        /// </summary>
+        public static string View_TextWindow_ListOfPlayers {
+            get {
+                return ResourceManager.GetString("View.TextWindow.ListOfPlayers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to \&quot;SWAP A B...\&quot; or \&quot;MOVE A(7,7) ...\&quot; to place or \&quot;PASS\&quot; or \&quot;RANK\&quot;..
+        /// </summary>
+        public static string View_TextWindow_MakeaMove {
+            get {
+                return ResourceManager.GetString("View.TextWindow.MakeaMove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} passed!.
+        /// </summary>
+        public static string View_TextWindow_Pass {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Pass", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} first!.
+        /// </summary>
+        public static string View_TextWindow_PlayerNow {
+            get {
+                return ResourceManager.GetString("View.TextWindow.PlayerNow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} made the words:.
+        /// </summary>
+        public static string View_TextWindow_PlayerWords {
+            get {
+                return ResourceManager.GetString("View.TextWindow.PlayerWords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Scores of each player:.
+        /// </summary>
+        public static string View_TextWindow_PrintScore {
+            get {
+                return ResourceManager.GetString("View.TextWindow.PrintScore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Judge: You&apos;ve input a wrong command. Please try again!.
+        /// </summary>
+        public static string View_TextWindow_RejectInput {
+            get {
+                return ResourceManager.GetString("View.TextWindow.RejectInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Judge: You can&apos;t swap from now on!.
+        /// </summary>
+        public static string View_TextWindow_RejectSwap {
+            get {
+                return ResourceManager.GetString("View.TextWindow.RejectSwap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ({0} scores).
+        /// </summary>
+        public static string View_TextWindow_Score {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Score", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game starts....
+        /// </summary>
+        public static string View_TextWindow_Start {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Start", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} swapped their tiles!.
+        /// </summary>
+        public static string View_TextWindow_Swap {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Swap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player {0} gets {1}!.
+        /// </summary>
+        public static string View_TextWindow_TileChar {
+            get {
+                return ResourceManager.GetString("View.TextWindow.TileChar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ***You have tiles:.
+        /// </summary>
+        public static string View_TextWindow_TilesDetails {
+            get {
+                return ResourceManager.GetString("View.TextWindow.TilesDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player - ScrabbleConsole:.
+        /// </summary>
+        public static string View_TextWindow_Title {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input by typing:.
+        /// </summary>
+        public static string View_TextWindow_Type {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Type", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Winner is P {0} with scores {1}!.
+        /// </summary>
+        public static string View_TextWindow_Winner {
+            get {
+                return ResourceManager.GetString("View.TextWindow.Winner", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Game Judge: Wrong MOVE arguments. Please try again..
+        /// </summary>
+        public static string View_TextWindow_WrongMove {
+            get {
+                return ResourceManager.GetString("View.TextWindow.WrongMove", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your turn now!.
+        /// </summary>
+        public static string View_TextWindow_YourTurn {
+            get {
+                return ResourceManager.GetString("View.TextWindow.YourTurn", resourceCulture);
             }
         }
     }
