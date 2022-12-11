@@ -297,7 +297,8 @@ namespace Scrabble
                     ConsoleBoardWriter(game.gs.ListOfPlayers[PlayerNow].ToString());
                 }
                 game.gs.ListOfPlayers.Sort();
-                ConsoleBoardWriter("Winner is P" + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!");
+                //ConsoleBoardWriter("Winner is P" + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!");
+                Winner.Text = String.Format(Scrabble2018.Locales.skin.View.TextWindow.Winner, game.gs.ListOfPlayers[0].Id + 1, game.gs.ListOfPlayers[0].Score);
                 DisableAll();
                 return;
             }
@@ -308,11 +309,11 @@ namespace Scrabble
             }
             else if (GameState.GSInstance.LastAction == "pass")
             {
-                ConsoleBoardWriter("Player " + (GameState.GSInstance.PrevPlayer + 1) + " passed!");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Skip, GameState.GSInstance.PrevPlayer + 1);
             }
             else if (GameState.GSInstance.LastAction == "swap")
             {
-                ConsoleBoardWriter("Player " + (GameState.GSInstance.PrevPlayer + 1) + " swapped his tiles!");
+                ConsoleBoardWriter(Scrabble2018.Locales.skin.View.TextWindow.Swap, GameState.GSInstance.PrevPlayer + 1);
             }
             PlayerNow = GameState.GSInstance.PlayerNow;
             LoadBoardView();
