@@ -60,7 +60,8 @@ namespace Scrabble
             else
             {
                 MessageBox.Show("You need more friends to start Scrabble!!!", "Find friends!");
-                //
+                //MessageBox.Show(Scrabble2018.Locales.skin.View.MainWindow.Friends);
+                //Need to localize this
             }
         }
 
