@@ -26,6 +26,7 @@ namespace Scrabble
             game.Subs(this);
             GameState.GSInstance.OnStateChanged += OnStateChanged;
             this.Title = "Player " + (P + 1) + " - MobileScrabble";
+            //THIS may need to be localized and wrapped!
             ListSwapRackButton = new List<Button>();
             RackTileButtons = new List<Button>();
             // Adding board buttons
@@ -136,13 +137,14 @@ namespace Scrabble
         {
             if (ThisPlayer == GameState.GSInstance.PlayerNow)
             {
-                PlayerInfoLbl.Content = "Your turn!";
+                //PlayerInfoLbl.Content = "Your turn!";
+                PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View.MobileWindow.YourTurn;
             }
             else
             {
 
             }
-            PlayerInfoLbl.Content = "Player now: " + (turn + 1);
+            PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View.MobileWindow.Player + (turn + 1);
         }
 
 
@@ -150,12 +152,14 @@ namespace Scrabble
         {
             if (ThisPlayer == GameState.GSInstance.PlayerNow)
             {
-                PlayerInfoLbl.Content = "Your turn!";
+                //PlayerInfoLbl.Content = "Your turn!";
+                PlayerInfoLbl.Content = Scrabble2018.Locales.skin.View.MobileWindow.YourTurn;
             }
             else
             {
                 string s = "";
-                s += "Now:P" + (GameState.GSInstance.PlayerNow + 1) + "|Score:";
+                //s += "Now:P" + (GameState.GSInstance.PlayerNow + 1) + "|Score:";
+                s += Scrabble2018.Locales.skin.View.MobileWindow.PlayerP, GameState.GSInstance.PlayerNow + 1;
                 foreach (Player p in GameState.GSInstance.ListOfPlayers)
                 {
                     s += "P" + p.Id + "-" + p.Score + ";";
@@ -256,6 +260,7 @@ namespace Scrabble
                 LoadBoardView();
                 LoadRackView();
                 SwapButton.Content = "FINISH";
+                //MAY NEED TO LOCALIZE THIS^^^
                 ValidateButton.IsEnabled = false;
                 ReloadButton.IsEnabled = false;
                 if (!game.CanSwap())
@@ -275,6 +280,7 @@ namespace Scrabble
                 ValidateButton.IsEnabled = true;
                 ListSwapRackButton.Clear();
                 SwapButton.Content = "SWAP";
+                //MAY NEED TO LOCALIZE THIS^^^
                 PlayerNow = GameState.GSInstance.PlayerNow;
                 game.UpdateState(null);
             }
@@ -326,7 +332,8 @@ namespace Scrabble
             {
 
                 game.gs.ListOfPlayers.Sort();
-                WriteToLabel("Winner is P" + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!");
+                //WriteToLabel("Winner is P" + (game.gs.ListOfPlayers[0].Id + 1) + " with scores" + (game.gs.ListOfPlayers[0].Score) + "!");
+                WriteToLabel(Scrabble2018.Locales.skin.View.MobileWindow.Winner, game.gs.ListOfPlayers[0].Id + 1, game.gs.ListOfPlayers[0].Score + "!");                
                 DisableEverthing();
                 return;
             }
