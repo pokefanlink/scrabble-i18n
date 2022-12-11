@@ -4,14 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Scrabble.View"
-		xmlns:rs="clr-namespace:Scrabble2018.Locales"
         mc:Ignorable="d"
         Background="DarkCyan"
-        Title="{x:Static rs:skin.View.AboutWindow.Title}" Height="123.501" Width="200"
+        Title="About" Height="123.501" Width="200"
         ResizeMode="CanMinimize"
     >
     <Grid>
-        <Label Content="{x:Static rs:skin.View.AboutWindow.Author}" HorizontalContentAlignment="Center" FontFamily="Georgia" Name="About" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="168"/>
-        <Label Content="{x:Static rs:skin.View.AboutWindow.Scrabble}" HorizontalContentAlignment="Center" FontFamily="Georgia" FontSize="25" Foreground="Red" HorizontalAlignment="Left" Margin="10,54,0,-75.4" VerticalAlignment="Top" Height="115" Width="174"/>
+        <Label Content="Author: poyea@GitHub&#xA;Repository: poyea/scrabble" HorizontalContentAlignment="Center" FontFamily="Georgia" Name="About" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="44" Width="168"/>
+        <Label Content="SCRABBLE" HorizontalContentAlignment="Center" FontFamily="Georgia" FontSize="25" Foreground="Red" HorizontalAlignment="Left" Margin="10,54,0,-75.4" VerticalAlignment="Top" Height="115" Width="174"/>
     </Grid>
 </Window>
